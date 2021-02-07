@@ -13,6 +13,8 @@ body {
   line-height: 1.5;
 }
 
+/* navbar using flexbox */
+
 nav {
   width: 100%;
   background-color: #ed4631;
@@ -56,6 +58,8 @@ nav ul li {
   display: none;
 }
 
+/* mobile view for the navbar */
+
 @media only screen and (min-width: 576px) {
   nav {
     flex-direction: row;
@@ -67,7 +71,7 @@ nav ul li {
   }
 
   .mobile-view {
-    padding: 0px 3px;
+    padding: 0px 5px;
     display: inline;
   }
 }
