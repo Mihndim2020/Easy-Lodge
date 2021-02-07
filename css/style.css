@@ -20,14 +20,15 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding: 5px 30px;
   color: white;
 }
 
 nav .logo {
-  font-size: 1.4rem;
-  white-space:nowrap;
+  font-size: 1.1rem;
+  white-space: nowrap;
+  margin-left: 45px;
 }
 
 nav a {
@@ -48,23 +49,25 @@ nav ul li {
   font-weight: bold;
   font-size: 0.8rem;
   white-space: nowrap;
-  padding: 0px 10px;
+  padding: 0px 14px;
 }
 
 .mobile-view {
-  padding: 0px 3px;
+  display: none;
 }
 
-.mobile-view {
-  display: none;  
-}
+@media only screen and (min-width: 576px) {
+  nav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  nav .logo {
+    margin-left: 48px;
+    font-size: 1.4rem;
+  }
 
-@media only screen and (min-width: 600px) {
-    nav {
-        flex-direction: row;
-    }
-
-    .mobile-view {
-        display: inline;  
-      }
+  .mobile-view {
+    padding: 0px 3px;
+    display: inline;
+  }
 }
