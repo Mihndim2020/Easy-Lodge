@@ -75,3 +75,43 @@ nav ul li {
     display: inline;
   }
 }
+
+ footer .ft-upper-nav {
+    border-top: 0.1px solid #837979;
+    border-bottom: 0.1px solid #837979;
+} 
+
+.upper-container {
+    position: relative;
+}
+
+@media only screen and (max-width: 576px){
+    footer ul li {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    footer ul li {
+        font-size: 0.9rem;
+        color: green;
+    }
+}
+
+/* .input-group {
+    border-radius: 4px;
+    border: 0.2px solid #ebebeb;
+} */
+
+/* footer .location-icon {
+    position:absolute;
+    left: 47%;
+    top: 50%;
+} */
+
+/* footer .location-icon {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+} */
