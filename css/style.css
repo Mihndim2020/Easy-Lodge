@@ -76,32 +76,42 @@ nav ul li {
   }
 }
 
- footer .ft-upper-nav {
-    border-top: 0.1px solid #837979;
-    border-bottom: 0.1px solid #837979;
-} 
+footer .ft-upper-nav {
+  border-top: 0.1px solid #837979;
+  border-bottom: 0.1px solid #837979;
+}
 
 .upper-container {
-    position: relative;
+  position: relative;
 }
 
-@media only screen and (max-width: 576px){
-    footer ul li {
-        font-size: 0.8rem;
-    }
+@media only screen and (max-width: 576px) {
+  footer ul li {
+    font-size: 0.8rem;
+  }
 }
 
-@media only screen and (max-width: 768px){
-    footer ul li {
-        font-size: 0.9rem;
-        color: green;
-    }
+@media only screen and (max-width: 768px) {
+  footer ul li {
+    font-size: 0.9rem;
+    color: green;
+  }
 }
 
-/* .input-group {
-    border-radius: 4px;
-    border: 0.2px solid #ebebeb;
-} */
+.form-control {
+  background-color: #495057;
+  border: 0.5px solid #837979;
+}
+
+.lower-footer {
+  background-color: #495057;
+}
+
+.lower-footer ul .nav-link {
+    font-size: 1.5rem;
+    padding: 0 5px;
+}
+
 
 /* footer .location-icon {
     position:absolute;
