@@ -94,6 +94,12 @@ main .hero-area {
   padding: 20px;
 }
 
+.hero-text {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20%;
+  }
+
 .search-form {
   display: flex;
   flex-direction: column;
@@ -106,6 +112,14 @@ main .hero-area {
   margin: 5%;
 }
 
+.label-text {
+  align-self: start;
+  margin-left: 10%;
+  margin-bottom: -3px;
+  margin-top: 3%;
+  color: black;
+    
+}
 .search-input {
   width: 80%;
   border-radius: 5px;
@@ -121,10 +135,26 @@ main .hero-area {
   color: white;
   font-weight: 700;
 }
-.hero-text {
-  font-weight: 700;
-  text-align: center;
-  margin-top: 10%;
+
+
+.how-it-works-btn {
+    display: flex;
+    width: 150px;
+    height: 35px;
+    font-size: 1.2rem;
+    border:0.5px solid rgba(235, 235, 235, 0.5);
+    border-radius: 5px;
+    margin-left: 5%;
+    font-weight: 700;
+    padding: 3px;
+    padding-left: 10px;
+    white-space: nowrap;
+    margin-top: 5%;
+
+}
+
+.how-it-works-btn:hover {
+    color: red;
 }
 
 footer .ft-upper-nav {
