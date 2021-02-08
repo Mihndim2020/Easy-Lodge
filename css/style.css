@@ -205,30 +205,35 @@ main .hero-area {
   }
 }
 
-   /* the main content area */
+/* the main content area */
 
-   .thumbnail {
-       height: 50px;
-       width: 50px;
-   }
+.thumbnail-main {
+  height: 50px;
+  width: 50px;
+}
 
-   /* more content area */
+/* more content area */
 
 .top-content {
-    background-color:#E17E66;
+  background-color: #e17e66;
 }
 
 .middle-content {
-   background-color:#98A4A5; 
+  background-color: #98a4a5;
 }
 
 .lower-content {
-    background-color: #509BD7;
+  background-color: #509bd7;
+}
+
+.thumbnail {
+  width: 10em;
+  height: 10em;
 }
 
 .mb-phone {
-    width: 20%;
-    height: auto;
+  width: 10em;
+  height: 10em;
 }
 
 /* footer-section  */
