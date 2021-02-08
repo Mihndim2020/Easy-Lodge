@@ -92,6 +92,14 @@ main .hero-area {
 
 }
 
+.hero-text {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+
 footer .ft-upper-nav {
   border-top: 0.1px solid #837979;
   border-bottom: 0.1px solid #837979;
