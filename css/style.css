@@ -158,7 +158,11 @@ main .hero-area {
 /* hero  area for tablets */
 
 @media only screen and (min-width: 768px) {
-
+ 
+.mobile-form {
+   position: absolute;
+   left: -999999;
+}
 }
 
 /* footer-section  */
