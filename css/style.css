@@ -86,7 +86,7 @@ footer .ft-upper-nav {
 }
 
 @media only screen and (max-width: 576px) {
-  footer ul li {
+  .ft-upper ul .nav-link {
     font-size: 0.8rem;
   }
 }
@@ -108,9 +108,18 @@ footer .ft-upper-nav {
 }
 
 .lower-footer ul .nav-link {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 0 5px;
 }
+
+/* @media only screen and (max-width: 576px) {
+    .lower-footer {
+        flex-direction: column;
+        justify-items: center;
+    }
+  } */
+
+
 
 
 /* footer .location-icon {
