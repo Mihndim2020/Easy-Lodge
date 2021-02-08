@@ -212,6 +212,25 @@ main .hero-area {
        width: 50px;
    }
 
+   /* more content area */
+
+.top-content {
+    background-color:#E17E66;
+}
+
+.middle-content {
+   background-color:#98A4A5; 
+}
+
+.lower-content {
+    background-color: #509BD7;
+}
+
+.mb-phone {
+    width: 20%;
+    height: auto;
+}
+
 /* footer-section  */
 
 footer .ft-upper-nav {
