@@ -88,7 +88,7 @@ main .hero-area {
     ),
     url("https://media-cdn.tripadvisor.com/media/photo-s/15/a1/d2/af/hotel-r-de-paris.jpg");
   width: 100%;
-  height: 70vh;
+  height: auto;
   background-size: cover;
   color: white;
   padding: 20px;
@@ -105,11 +105,12 @@ main .hero-area {
   flex-direction: column;
   align-items: center;
   width: 90%;
-  height: 20%;
+  height: 60%;
   margin: 0 auto;
   background-color: rgba(235, 235, 235, 0.5);
   border-radius: 10px;
   margin: 5%;
+  padding-bottom: 10px;
 }
 
 .label-text {
@@ -156,6 +157,15 @@ main .hero-area {
 .how-it-works-btn:hover {
     color: red;
 }
+
+/* hero  area for tablets */
+
+@media only screen and (min-width: 768px){
+
+    
+}
+
+ /* footer-section  */
 
 footer .ft-upper-nav {
   border-top: 0.1px solid #837979;
