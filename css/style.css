@@ -226,6 +226,14 @@ main .hero-area {
   background-color: #509bd7;
 }
 
+.more-btn1 {
+    color: #e17e66;
+}
+
+.more-btn2 {
+    color:#98a4a5;
+} 
+
 .thumbnail {
   width: 10em;
   height: 10em;
