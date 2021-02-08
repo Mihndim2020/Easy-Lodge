@@ -86,8 +86,8 @@ footer .ft-upper-nav {
 }
 
 @media only screen and (max-width: 576px) {
-  .ft-upper ul .nav-link {
-    font-size: 0.8rem;
+  .ft-upper-nav ul .nav-link {
+    font-size: 0.5rem;
   }
 }
 
@@ -110,6 +110,11 @@ footer .ft-upper-nav {
 .lower-footer ul .nav-link {
     font-size: 1.3rem;
     padding: 0 5px;
+}
+footer .location-icon {
+    background-color:#6C757D ;
+    border-radius: 50%;
+    border-bottom: 0.1px solid #837979;
 }
 
 /* @media only screen and (max-width: 576px) {
