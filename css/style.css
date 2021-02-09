@@ -246,25 +246,48 @@ main .hero-area {
 
 /* footer-section  */
 
+
+
 footer .ft-upper-nav {
   border-top: 0.1px solid #837979;
   border-bottom: 0.1px solid #837979;
+  background-color: black;
 }
 
-.upper-container {
+  /* position the middle location icon  */ 
+
+
+.upper-container,
+.middle-footer {
   position: relative;
+  background-color: black;
 }
+
+.location-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 4em;
+    height: 4em;
+    border:0.1px solid #837979;
+    text-align: center;
+    height: 50%; 
+    background-color: black;
+    border-radius: 50%;   
+}
+
 
 @media only screen and (max-width: 576px) {
-  .ft-upper-nav ul .nav-link {
+  .ft-upper-nav .nav-link {
     font-size: 0.5rem;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  footer ul li {
-    font-size: 0.9rem;
-    color: green;
+    .ft-upper-nav .nav-link {
+    font-size: 0.7rem;
+    
   }
 }
 
@@ -281,28 +304,6 @@ footer .ft-upper-nav {
   font-size: 1.3rem;
   padding: 0 5px;
 }
-footer .location-icon {
-  background-color: #6c757d;
-  border-radius: 50%;
-  border-bottom: 0.1px solid #837979;
-}
 
-/* @media only screen and (max-width: 576px) {
-    .lower-footer {
-        flex-direction: column;
-        justify-items: center;
-    }
-  } */
 
-/* footer .location-icon {
-    position:absolute;
-    left: 47%;
-    top: 50%;
-} */
-
-/* footer .location-icon {
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    border-radius: 50%;
-} */
+/
