@@ -246,15 +246,18 @@ main .hero-area {
 
     /* this is for the search page */
 
+            /* form for mobile and tablet view */
+
+.form-control,
+.form-contrl {
+    width: 60vw;
+}
     /* for for large and extralarge screens */
 
 .form-container {
     background-color:#EEEEEE ;
 }
 
-        /* form for mobile and tablet view */
-
-        
 
 /* footer-section  */
 
