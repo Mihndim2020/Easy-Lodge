@@ -248,15 +248,47 @@ main .hero-area {
 
             /* form for mobile and tablet view */
 
+.form-container {
+    background-color:#EEEEEE ;
+}           
+
+
 .form-control,
 .form-contrl {
     width: 60vw;
+    height: auto;
 }
+
+@media only screen and (max-width: 992px) {
+    .form-for-large{
+      display: none;
+    }
+}
+
     /* for for large and extralarge screens */
 
-.form-container {
-    background-color:#EEEEEE ;
+@media only screen and (min-width:992px) {
+    .form-for-mobile{
+        display: none;
+    }
+    .form-for-large{
+        display: inline;
+      }
+    .lg {
+        width:5vw;
+    }
+
 }
+
+        /* result display area */
+
+.text-background {
+    background-color: #D85E4B;    
+    border: 15px solid white;
+   
+}       
+
+
 
 
 /* footer-section  */

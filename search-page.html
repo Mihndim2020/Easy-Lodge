@@ -31,103 +31,12 @@
     <main>
 
 
-                        <!-- for tablet screens -->
+                      
+
+                            <!-- this is for tablet and mobile view -->
 
 
-
-                <!-- form for large and extra large screens -->
-
-        <!-- <div class="container-fluid form-container px-3 mt-5 mb-5">
-            <h3 class="text-center pt-5 text-muted" >Filter by name, region, division, type, accomodation, facilities, services </h3>
-            <div class="row">
-                <div class="col-12 form-container">
-                 
-                <form action="/" class ="form-inline d-flex align-items-end justify-content-around flex-nowrap flex-shrink-1  py-5 container-fluid ">
-                    <div class="form-group d-flex flex-shrink-1">
-                        <div class = "d-flex flex-column align-items-start">
-                            <label for="hotel-name">HOTEL NAME:*</label>
-                            <input type="text" class="form-control bg-white border" id="hotel-name" placeholder="Hotel-name" name="hotel-name">
-                        </div>
-                    </div>
-
-                    <div class="form-group d-flex px-2 flex-shrink-1">
-                        <div class = "d-flex flex-column align-items-start flex-shrink-1">
-                            <label for="region">REGION:</label>
-                            <select class="form-control bg-white border" id="region">
-                                <option value="selected"></option>
-                                <option>South West </option>
-                                <option>Littoral</option>
-                                <option>Center</option>
-                                <option>Extreme Nord</option>
-                                <option>Adamaoua</option>
-                                <option>North</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="form-group d-flex px-2 flex-shrink-1">
-                        <div class = "d-flex flex-column align-items-start">
-                            <label for="region">TYPE:</label>
-                            <select class="form-control bg-white border w-3" id="sel1">
-                                <option></option>
-                                <option>Five stars </option>
-                                <option>Four stars</option>
-                                <option>Three stars</option>
-                                <option>Two stars</option>
-                                <option>One star</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="form-group d-flex px-2 flex-shrink-1">
-                        <div class = "d-flex flex-column align-items-start">
-                            <label for="region">ACCOMODATION:</label>
-                            <select class="form-control bg-white border" id="sel1">
-                                <option></option>
-                                <option>Room</option>
-                                <option>A flat</option>
-                                <option>Executive suit</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="form-group d-flex px-2 flex-shrink-1">
-                        <div class = "d-flex flex-column align-items-start">
-                            <label for="region">FACILITIES:</label>
-                            <select class="form-control bg-white border" id="sel1">
-                                <option></option>
-                                <option>Swimming Pool</option>
-                                <option>Tenis Court</option>
-                                <option>Basketball</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="form-group d-flex flex-shrink-1">
-                        <div class = "d-flex flex-column align-items-start">
-                            <label for="region">SERVICES:</label>
-                            <select class="form-control bg-white border" id="sel1">
-                                <option></option>
-                                <option>Restaurant</option>
-                                <option>Bar</option>
-                                <option>Night Club</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <button type="button" class="btn btn-primary ">Search</button>              
-
-                    <button type="submit" class="btn btn-warning  text-nowrap mx-2 text-white"><i class="far fa-edit"></i>Clear Filter</button>
-                </form>
-             </div>
-            </div>
-        </div> -->
-        
-        
-                                    <!-- this is for tablet and mobile view -->
-
-
-        <div class="container-fluid form-container px-3 mt-5 mb-5">
+        <div class="container-fluid form-container px-3 mt-5 mb-5 form-for-mobile">
             <h3 class="text-center pt-5 text-muted" >Filter by name, region, division, type, accomodation, facilities, services </h3>
             <div class="row">
                 <div class="col-12 form-container">
@@ -211,7 +120,136 @@
                 </form>
                 </div>
             </div>
-        </div>                              
+        </div> 
+
+
+
+                <!-- form for large and extra large screens -->
+
+        <div class="container-fluid  px-3 mt-5 mb-5 form-for-large">
+            <h3 class="text-center pt-3 mb-3 text-muted" >Filter by name, region, division, type, accomodation, facilities, services </h3>
+            <div class="row">
+              
+                <div class="col-12 container-fluid form-container">
+                 
+                <form action="/" class ="form-inline d-flex align-items-end justify-content-around flex-nowrap flex-shrink-1  py-5 container-fluid ">
+                    <div class="form-group d-flex flex-shrink-1">
+                        <div class = "d-flex flex-column align-items-start">
+                            <label for="hotel-name">HOTEL NAME:*</label>
+                            <input type="text" class="form-control bg-white border lg" id="hotel-name" placeholder="Hotel-name" name="hotel-name">
+                        </div>
+                    </div>
+
+                    <div class="form-group d-flex px-2 flex-shrink-1">
+                        <div class = "d-flex flex-column align-items-start flex-shrink-1">
+                            <label for="region">REGION:</label>
+                            <select class="form-control bg-white border lg" id="region">
+                                <option value="selected"></option>
+                                <option>South West </option>
+                                <option>Littoral</option>
+                                <option>Center</option>
+                                <option> Nord</option>
+                                <option>South</option>
+                                <option>North</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group d-flex px-2 flex-shrink-1">
+                        <div class = "d-flex flex-column align-items-start">
+                            <label for="region">TYPE:</label>
+                            <select class="form-control bg-white border lg w-3" id="sel1">
+                                <option></option>
+                                <option>Five stars </option>
+                                <option>Four stars</option>
+                                <option>Three stars</option>
+                                <option>Two stars</option>
+                                <option>One star</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group d-flex px-2 flex-shrink-1">
+                        <div class = "d-flex flex-column align-items-start">
+                            <label for="region">ACCOMODATION:</label>
+                            <select class="form-control bg-white border lg" id="sel1">
+                                <option></option>
+                                <option>Room</option>
+                                <option>A flat</option>
+                                <option>Executive Suit</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group d-flex px-2 flex-shrink-1">
+                        <div class = "d-flex flex-column align-items-start">
+                            <label for="region">FACILITIES:</label>
+                            <select class="form-control bg-white border lg" id="sel1">
+                                <option></option>
+                                <option> Pool</option>
+                                <option>Tenis Court</option>
+                                <option>Basketball</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group d-flex flex-shrink-1">
+                        <div class = "d-flex flex-column align-items-start">
+                            <label for="region">SERVICES:</label>
+                            <select class="form-control bg-white border lg" id="sel1">
+                                <option></option>
+                                <option>Restaurant</option>
+                                <option>Bar</option>
+                                <option>Night Club</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="button" class="btn btn-primary mx-2">Search</button>              
+
+                    <button type="submit" class="btn btn-warning  text-nowrap text-white"><i class="far fa-edit"></i>Clear Filter</button>
+                </form>
+             </div>
+            </div>
+        </div>
+        
+                                <!-- result display section      -->
+        <div class="container-fluid">
+            <h3 class="text-center py-3">Search results found 6 hotel(s)</h3>
+            <div class="row mb-5">
+                <div class="col-md-6 col-lg-4 text-background">
+                    <h4 class = "text-white text-center py-2">Hilton Hotel</h4>
+                    <p class="text-white text-center ">Make yourself at home in one of the 453 air-condition rooms featuring minibars and plasma televisions. Wireless internet access keeps you connected, and satellite programming is available for your entertainment</p>
+                </div>
+
+                <div class="col-md-6 col-lg-4 text-background">
+                    <h4 class = "text-white text-center py-2">Sawa Hotel</h4>
+                    <p class="text-white text-center ">Make yourself at home in one of the 453 air-condition rooms featuring minibars and plasma televisions. Wireless internet access keeps you connected, and satellite programming is available for your entertainment</p>
+                </div>
+
+                <div class="col-md-6 col-lg-4 text-background">
+                    <h4 class = "text-white text-center py-2">Mont Febe Hotel</h4>
+                    <p class="text-white text-center ">Make yourself at home in one of the 453 air-condition rooms featuring minibars and plasma televisions. Wireless internet access keeps you connected, and satellite programming is available for your entertainment</p>
+                </div>
+
+                <div class="col-md-6 col-lg-4 text-background">
+                    <h4 class = "text-white text-center py-2">Hilton Hotel</h4>
+                    <p class="text-white text-center ">Make yourself at home in one of the 453 air-condition rooms featuring minibars and plasma televisions. Wireless internet access keeps you connected, and satellite programming is available for your entertainment</p>
+                </div>
+
+                <div class="col-md-6 col-lg-4 text-background">
+                    <h4 class = "text-white text-center py-2">Sawa Hotel</h4>
+                    <p class="text-white text-center ">Make yourself at home in one of the 453 air-condition rooms featuring minibars and plasma televisions. Wireless internet access keeps you connected, and satellite programming is available for your entertainment</p>
+                </div>
+
+                <div class="col-md-6 col-lg-4 text-background">
+                    <h4 class = "text-white text-center py-2">Mont Febe Hotel</h4>
+                    <p class="text-white text-center ">Make yourself at home in one of the 453 air-condition rooms featuring minibars and plasma televisions. Wireless internet access keeps you connected, and satellite programming is available for your entertainment</p>
+                </div>
+
+            </div>
+        </div>                        
+                             
 
     </main>                        
 
