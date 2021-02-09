@@ -8,7 +8,7 @@
     <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Helvetica">
     <link rel="stylesheet" href="css/style.css">
-    <title>EasyLodge</title>
+    <title>EasyLodge/Search</title>
 </head>
 <body>
     <header>
@@ -26,8 +26,97 @@
         </nav>
     </header>
 
+                            <!-- the is the main section fo the page  -->
 
-        <!-- this is the footer -->
+    <main>
+
+                <!-- form for large and extra large screens -->
+
+        <div class="container-fluid  px-3">
+            <h3 class="text-center pt-5 text-muted" >Filter by name, region, division, type, accomodation, facilities, services </h3>
+            <form action="/" class ="form-inline d-flex align-items-end flex-nowrap flex-shrink-1 py-5 container ">
+                <div class="form-group flex-shrink-1">
+                    <div class = "d-flex flex-column align-items-start">
+                        <label for="hotel-name">HOTEL NAME:*</label>
+                        <input type="text" class="form-control bg-white border" id="hotel-name" placeholder="Hotel-name" name="hotel-name">
+                    </div>
+                </div>
+
+                <div class="form-group px-2 flex-shrink-1">
+                    <div class = "d-flex flex-column align-items-start flex-shrink-1">
+                        <label for="region">REGION:</label>
+                        <select class="form-control bg-white border" id="region">
+                            <option value="selected"></option>
+                            <option>South West </option>
+                            <option>Littoral</option>
+                            <option>Center</option>
+                            <option>Extreme Nord</option>
+                            <option>Adamaoua</option>
+                            <option>North</option>
+                          </select>
+                    </div>
+                </div>
+
+                <div class="form-group flex-shrink-1">
+                    <div class = "d-flex flex-column align-items-start">
+                        <label for="region">TYPE:</label>
+                        <select class="form-control bg-white border w-3" id="sel1">
+                            <option></option>
+                            <option>Five stars </option>
+                            <option>Four stars</option>
+                            <option>Three stars</option>
+                            <option>Two stars</option>
+                            <option>One star</option>
+                          </select>
+                    </div>
+                </div>
+
+                <div class="form-group px-2 flex-shrink-1">
+                    <div class = "d-flex flex-column align-items-start">
+                        <label for="region">ACCOMODATION:</label>
+                        <select class="form-control bg-white border" id="sel1">
+                            <option></option>
+                            <option>Room</option>
+                            <option>A flat</option>
+                            <option>Executive suit</option>
+                          </select>
+                    </div>
+                </div>
+
+                <div class="form-group flex-shrink-1">
+                    <div class = "d-flex flex-column align-items-start">
+                        <label for="region">FACILITIES:</label>
+                        <select class="form-control bg-white border" id="sel1">
+                            <option></option>
+                            <option>Swimming Pool</option>
+                            <option>Tenis Court</option>
+                            <option>Basketball</option>
+                          </select>
+                    </div>
+                </div>
+
+                <div class="form-group px-2 flex-shrink-1">
+                    <div class = "d-flex flex-column align-items-start">
+                        <label for="region">SERVICES:</label>
+                        <select class="form-control bg-white border" id="sel1">
+                            <option></option>
+                            <option>Restaurant</option>
+                            <option>Bar</option>
+                            <option>Night Club</option>
+                          </select>
+                    </div>
+                </div>
+
+                <button type="button" class="btn btn-primary ">Primary</button>              
+
+                <button type="submit" class="btn btn-warning mx-2">Submit</button>
+            </form>
+        </div>            
+
+    </main>                        
+
+
+                                    <!-- this is the footer -->
     <footer>
             <div class="container-fluid bg-dark">
     
