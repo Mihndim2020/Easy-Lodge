@@ -286,7 +286,13 @@ main .hero-area {
     background-color: #D85E4B;    
     border: 15px solid white;
    
-}       
+} 
+
+    /* this the result page */
+
+.result-elts {
+    border: 2px solid white;
+}
 
 
 
