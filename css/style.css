@@ -131,7 +131,7 @@ main .hero-area {
 }
 
 .search-btn {
-  width: 80%;
+  width: 90%;
   border-radius: 5px;
   border: 0.5px solid rgba(235, 235, 235, 0.5);
   background-color: red;
@@ -302,17 +302,20 @@ main .hero-area {
     background-color: #ebebeb;
     margin: auto 3em;
     padding: 0.5rem;
+    margin-top: 2em;
 }
 
 .anchor-text a:hover {
     text-decoration: none;
+    
 }
 
                 /* adding a map */
 
 #googleMap {
     height: 400px;
-    width: 100%;    
+    width: 100%;
+
 }    
 
 
