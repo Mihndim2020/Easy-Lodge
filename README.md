@@ -7,7 +7,7 @@
 ![screenshot](images/Screenshot1.png)
 ![screenshot](images/Screenshot2.png)
 ![screenshot](images/Screenshot3.png)
-![screenshot](images/Screenshot4.png)
+![screenshot](images/Screenshotfrom4.png)
 
 Additional description about the project and its features.
 
@@ -26,7 +26,7 @@ Additional description about the project and its features.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/mihndim2020)
+- GitHub: [@mihndim2020](https://github.com/mihndim2020)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
