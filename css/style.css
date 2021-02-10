@@ -4,7 +4,7 @@
 
 li {
   list-style: none;
-  padding: 0px;
+  padding: 0;
 }
 
 body {
@@ -15,7 +15,6 @@ body {
 }
 
 /* navbar using flexbox */
-
 nav {
   width: 100%;
   background-color: #ed4631;
@@ -38,6 +37,10 @@ nav a {
   color: white;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 nav a:hover {
   text-decoration: none;
 }
@@ -52,7 +55,7 @@ nav ul li {
   font-weight: bold;
   font-size: 0.8rem;
   white-space: nowrap;
-  padding: 0px 14px;
+  padding: 0 14px;
 }
 
 .mobile-view {
@@ -66,13 +69,14 @@ nav ul li {
     flex-direction: row;
     flex-wrap: nowrap;
   }
+
   nav .logo {
     margin-left: 48px;
     font-size: 1.4rem;
   }
 
   .mobile-view {
-    padding: 0px 5px;
+    padding: 0 5px;
     display: inline;
   }
 }
@@ -82,7 +86,8 @@ nav ul li {
 /* the hero area */
 
 main .hero-area {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(000, 000, 000, 0.2),
       rgba(000, 000, 000, 0.4)
@@ -112,7 +117,6 @@ main .hero-area {
   margin: 0 auto;
   background-color: rgba(235, 235, 235, 0.5);
   border-radius: 10px;
-  margin: 5%;
   padding-bottom: 10px;
 }
 
@@ -124,6 +128,7 @@ main .hero-area {
   color: black;
   font-weight: 700;
 }
+
 .search-input {
   width: 80%;
   border-radius: 5px;
@@ -132,7 +137,7 @@ main .hero-area {
 }
 
 .search-btn {
-  width: 100%;
+  width: 80%;
   border-radius: 5px;
   border: 0.5px solid rgba(235, 235, 235, 0.5);
   background-color: red;
@@ -228,12 +233,12 @@ main .hero-area {
 }
 
 .more-btn1 {
-    color: #e17e66;
+  color: #e17e66;
 }
 
 .more-btn2 {
-    color:#98a4a5;
-} 
+  color: #98a4a5;
+}
 
 .thumbnail {
   width: 10em;
@@ -245,98 +250,95 @@ main .hero-area {
   height: 10em;
 }
 
-    /* this is for the search page */
+/* this is for the search page */
 
-            /* form for mobile and tablet view */
+/* form for mobile and tablet view */
 
 .form-container {
-    background-color:#EEEEEE ;
-}           
-
+  background-color: #eee;
+}
 
 .form-control,
 .form-contrl {
-    width: 60vw;
-    height: auto;
+  width: 60vw;
+  height: auto;
 }
 
 @media only screen and (max-width: 992px) {
-    .form-for-large{
-      display: none;
-    }
+  .form-for-large {
+    display: none;
+  }
 }
 
-    /* for for large and extralarge screens */
+/* for for large and extralarge screens */
 
-@media only screen and (min-width:992px) {
-    .form-for-mobile{
-        display: none;
-    }
-    .form-for-large{
-        display: inline;
-      }
-    .lg {
-        width:10vw !important;
-    }
+@media only screen and (min-width: 992px) {
+  .form-for-mobile {
+    display: none;
+  }
 
+  .form-for-large {
+    display: inline;
+  }
+
+  .lg {
+    width: 10vw !important;
+  }
 }
 
-.to-result a:hover{
-    color: darkblue;
-    text-decoration: none;
+.to-result a:hover {
+  color: darkblue;
+  text-decoration: none;
 }
 
-        /* result display area */
+/* result display area */
 
 .text-background {
-    background-color: #D85E4B;    
-    border: 15px solid white;
-   
-} 
+  background-color: #d85e4b;
+  border: 15px solid white;
+}
 
-    /* this the result page */
+/* this the result page */
 
 .result-elts {
-    border-radius: 7px;
+  border-radius: 7px;
 }
 
 .result-container {
-    box-shadow: 2px 2px rgba(000, 000, 000, 0.2);
+  box-shadow: 2px 2px rgba(000, 000, 000, 0.2);
 }
 
 .anchor-text {
-    background-color: #ebebeb;
-    margin: auto 3em;
-    padding: 0.5rem;
-    margin-top: 2em;
+  background-color: #ebebeb;
+  margin: auto 3em;
+  padding: 0.5rem;
+  margin-top: 2em;
 }
 
 .anchor-text a:hover {
-    text-decoration: none;
-    
+  text-decoration: none;
 }
 
-                /* adding a map */
+/* adding a map */
 
 #googleMap {
-    height: 400px;
-    width: 100%;
-
-}    
-
+  height: 400px;
+  width: 100%;
+}
 
 /* footer-section  */
-
-
-
 footer .ft-upper-nav {
+  width: 100vw !important;
   border-top: 0.1px solid #837979;
   border-bottom: 0.1px solid #837979;
   background-color: black;
 }
 
-  /* position the middle location icon  */ 
+footer .ft-upper-nav .nav-link {
+  width: 5vw;
+}
 
+/* position the middle location icon  */
 
 .upper-container,
 .middle-footer {
@@ -345,19 +347,17 @@ footer .ft-upper-nav {
 }
 
 .location-icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 4em;
-    height: 4em;
-    border:0.1px solid #837979;
-    text-align: center;
-    height: 50%; 
-    background-color: black;
-    border-radius: 50%;   
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 4em;
+  border: 0.1px solid #837979;
+  text-align: center;
+  height: 50%;
+  background-color: black;
+  border-radius: 50%;
 }
-
 
 @media only screen and (max-width: 576px) {
   .ft-upper-nav .nav-link {
@@ -366,9 +366,8 @@ footer .ft-upper-nav {
 }
 
 @media only screen and (max-width: 768px) {
-    .ft-upper-nav .nav-link {
+  .ft-upper-nav .nav-link {
     font-size: 0.7rem;
-    
   }
 }
 
@@ -385,6 +384,3 @@ footer .ft-upper-nav {
   font-size: 1.3rem;
   padding: 0 5px;
 }
-
-
-/
