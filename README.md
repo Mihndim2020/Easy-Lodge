@@ -7,7 +7,7 @@
 ![screenshot](images/Screenshot1.png)
 ![screenshot](images/Screenshot2.png)
 ![screenshot](images/Screenshot3.png)
-![screenshot](images/Screenshotfrom4.png)
+![screenshot](images/Screenshot4.png)
 
 Additional description about the project and its features.
 
