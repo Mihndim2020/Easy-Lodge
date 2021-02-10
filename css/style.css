@@ -11,6 +11,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   background-color: white;
   line-height: 1.5;
+  overflow-x: hidden;
 }
 
 /* navbar using flexbox */
@@ -131,7 +132,7 @@ main .hero-area {
 }
 
 .search-btn {
-  width: 90%;
+  width: 100%;
   border-radius: 5px;
   border: 0.5px solid rgba(235, 235, 235, 0.5);
   background-color: red;
@@ -275,9 +276,14 @@ main .hero-area {
         display: inline;
       }
     .lg {
-        width:5vw;
+        width:10vw !important;
     }
 
+}
+
+.to-result a:hover{
+    color: darkblue;
+    text-decoration: none;
 }
 
         /* result display area */
