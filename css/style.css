@@ -16,6 +16,8 @@ body {
 
 /* navbar using flexbox */
 nav {
+  position: fixed;
+  top: 0;
   width: 100%;
   background-color: #ed4631;
   display: flex;
@@ -25,6 +27,7 @@ nav {
   flex-wrap: nowrap;
   padding: 5px 30px;
   color: white;
+  z-index: 5;
 }
 
 nav .logo {
@@ -98,6 +101,7 @@ main .hero-area {
   background-size: cover;
   color: white;
   padding: 20px;
+  margin-top: 10vw;
 }
 
 .hero-text {
@@ -118,6 +122,7 @@ main .hero-area {
   background-color: rgba(235, 235, 235, 0.5);
   border-radius: 10px;
   padding-bottom: 10px;
+    
 }
 
 .label-text {
