@@ -45,6 +45,7 @@ Give a ⭐️ if you like this project!
 - Microverse
 - Stand Up team
 - Mentor
+- Mathew Njuguna and others on Behance
 
 ## 📝 License
 
