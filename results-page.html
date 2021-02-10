@@ -8,6 +8,16 @@
     <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Helvetica">
     <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        function myMap() {
+        var mapProp= {
+          center:new google.maps.LatLng(4.04827, 9.70428),
+          zoom:5,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+        </script>
     <title>EasyLodge/Result-Page</title>
 </head>
 <body>
@@ -84,6 +94,19 @@
         </div>  
         <p class="px-5 text-justify test-small mt-0">Douala is a lively city, filled with history, iconic sites like the Status and Tower of Douala. Known as the Big Smoke, Douala is filled with activities for all types of travelers, from families traveling with kids to those with only 24-hours to spend between meetings. The city is home to hundreds of neighborhoods, each one with its own unique history. Head to Littoral for renowned museums and Japoma to stroll through.</p> 
 
+        <div class="anchor-text">
+            <a href="#" class="text-dark result-anchor"><h3 class="mx-5 text-center"><i class="mx-1 fas fa-bars"></i>CLICK HERE TO VIEW MORE DETAILS</h3></a>
+        </div>
+
+        <div>
+            <h3 class="text-center py-4 text-danger"><i class="fas fa-globe-americas"></i><span class="mx-1">MAP DIRECTIONS</span> </h3>
+        </div>
+
+                                        <!-- insert-map -->
+
+        <div id="googleMap"></div>                                
+              
+
     </main>
 
     <footer>
@@ -151,6 +174,6 @@
             </div>
         </div>
     </footer>
-    
+    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyDldRXR4ek7_DfoUjYbOM97mX-JGrlfwj8&callback=myMap"></script>    
 </body>
 </html>    

@@ -298,7 +298,22 @@ main .hero-area {
     box-shadow: 2px 2px rgba(000, 000, 000, 0.2);
 }
 
+.anchor-text {
+    background-color: #ebebeb;
+    margin: auto 3em;
+    padding: 0.5rem;
+}
 
+.anchor-text a:hover {
+    text-decoration: none;
+}
+
+                /* adding a map */
+
+#googleMap {
+    height: 400px;
+    width: 100%;
+}    
 
 
 /* footer-section  */
