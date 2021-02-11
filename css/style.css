@@ -216,12 +216,6 @@ main .hero-area {
 
 /* break page on small screens */
 
-.more-content-section,
-.main-content-area,
-.top-footer {
-  display: none;
-}
-
 @media only screen and (min-width: 600px) {
   .main-content-area {
     display: inline;
