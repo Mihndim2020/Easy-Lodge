@@ -19,7 +19,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #D35649;
+  background-color: #d35649;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -65,6 +65,7 @@ nav ul li {
   display: none;
 }
 
+
 /* mobile view for the navbar */
 
 @media only screen and (min-width: 576px) {
@@ -89,8 +90,7 @@ nav ul li {
 /* the hero area */
 
 main .hero-area {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(000, 000, 000, 0.2),
       rgba(000, 000, 000, 0.4)
@@ -213,6 +213,32 @@ main .hero-area {
     border-radius: 10px;
   }
 }
+
+
+/* break page on small screens */
+
+.more-content-section,
+.main-content-area,
+.top-footer {
+    display: none;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+    .main-content-area {
+        display: inline;
+    }  
+}
+
+@media only screen and (min-width: 768px) {
+    .more-content-section,
+    .top-footer {
+        display: inline;
+    }
+} 
+
 
 /* the main content area */
 
@@ -387,3 +413,5 @@ footer .ft-upper-nav .nav-link {
   font-size: 1.3rem;
   padding: 0 5px;
 }
+
+
