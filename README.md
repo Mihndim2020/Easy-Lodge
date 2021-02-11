@@ -2,7 +2,7 @@
 
 # EasyLodge
 
-> This project is an online directory of hotels. I bridges the gap between hotels and clients. The various hotels are stored in the database and the customers search through to find a convenient choice. This is just the front end build using HTML5, CSS3 and Bootstrap. 
+> This project is an online directory of hotels. It bridges the gap between hotels and clients. The various hotels are stored in the database and the customers search through to find a convenient choice. This is just the front end build using HTML5, CSS3 and Bootstrap. 
  
 ![screenshot](images/Screenshot1.png)
 ![screenshot](images/Screenshot2.png)
