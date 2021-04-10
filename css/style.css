@@ -1,0 +1,404 @@
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: white;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+/* navbar using flexbox */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #d35649;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 5px 30px;
+  color: white;
+  z-index: 5;
+}
+
+nav .logo {
+  font-size: 1.1rem;
+  white-space: nowrap;
+  margin-left: 45px;
+}
+
+nav a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  padding-top: 15px;
+  flex-wrap: nowrap;
+}
+
+nav ul li {
+  font-weight: bold;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  padding: 0 14px;
+}
+
+.mobile-view {
+  display: none;
+}
+
+/* mobile view for the navbar */
+
+@media only screen and (min-width: 576px) {
+  nav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  nav .logo {
+    margin-left: 48px;
+    font-size: 1.4rem;
+  }
+
+  .mobile-view {
+    padding: 0 5px;
+    display: inline;
+  }
+}
+
+/* the main section  */
+
+/* the hero area */
+
+main .hero-area {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(000, 000, 000, 0.2),
+      rgba(000, 000, 000, 0.4)
+    ),
+    url("https://media-cdn.tripadvisor.com/media/photo-s/15/a1/d2/af/hotel-r-de-paris.jpg");
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+}
+
+.hero-text {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20%;
+}
+
+/* this is for mobile view */
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 60%;
+  margin: 0 auto;
+  background-color: rgba(235, 235, 235, 0.5);
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.label-text {
+  align-self: start;
+  margin-left: 10%;
+  margin-bottom: -3px;
+  margin-top: 3%;
+  color: black;
+  font-weight: 700;
+}
+
+.search-input {
+  width: 80%;
+  border-radius: 5px;
+  border: 0.5px solid #ebebeb;
+  margin: 10px auto;
+}
+
+.search-btn {
+  width: 80%;
+  border-radius: 5px;
+  border: 0.5px solid rgba(235, 235, 235, 0.5);
+  background-color: red;
+  color: white;
+  font-weight: 700;
+}
+
+.how-it-works-btn {
+  display: flex;
+  width: 150px;
+  height: 35px;
+  font-size: 1.2rem;
+  border: 0.5px solid rgba(235, 235, 235, 0.5);
+  border-radius: 5px;
+  margin-left: 5%;
+  font-weight: 700;
+  padding: 3px;
+  padding-left: 10px;
+  white-space: nowrap;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.how-it-works-btn:hover {
+  color: red;
+}
+
+.tablet-form,
+.large-form {
+  display: none;
+}
+
+/* hero  area for tablets */
+
+@media only screen and (min-width: 768px) {
+  .mobile-form {
+    display: none;
+  }
+
+  .how-it-works-btn {
+    margin: 0 auto;
+    margin-bottom: 10%;
+  }
+
+  .tablet-form {
+    display: inline;
+  }
+
+  .tablet-form-container {
+    padding: 15px 10px;
+    background-color: rgba(235, 235, 235, 0.5);
+    border-radius: 10px;
+  }
+}
+
+/* hero-area for large and extra-large screens */
+
+@media only screen and (min-width: 992px) {
+  .tablet-form {
+    display: none;
+  }
+
+  .large-form {
+    display: inline;
+  }
+
+  .large-form-container {
+    padding: 15px 10px;
+    background-color: rgba(235, 235, 235, 0.5);
+    border-radius: 10px;
+  }
+}
+
+/* break page on small screens */
+
+@media only screen and (min-width: 600px) {
+  .main-content-area {
+    display: inline;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .more-content-section,
+  .top-footer {
+    display: inline;
+  }
+}
+
+/* the main content area */
+
+.thumbnail-main {
+  height: 50px;
+  width: 50px;
+}
+
+/* more content area */
+
+.top-content {
+  background-color: #e17e66;
+}
+
+.middle-content {
+  background-color: #98a4a5;
+}
+
+.lower-content {
+  background-color: #508bd7;
+}
+
+.more-btn1 {
+  color: #e17e66;
+}
+
+.more-btn2 {
+  color: #98a4a5;
+}
+
+.thumbnail {
+  width: 10em;
+  height: 10em;
+}
+
+.mb-phone {
+  width: 10em;
+  height: 10em;
+}
+
+/* this is for the search page */
+
+/* form for mobile and tablet view */
+
+.form-container {
+  background-color: #eee;
+}
+
+.form-control,
+.form-contrl {
+  width: 60vw;
+  height: auto;
+}
+
+@media only screen and (max-width: 992px) {
+  .form-for-large {
+    display: none;
+  }
+}
+
+/* for for large and extralarge screens */
+
+@media only screen and (min-width: 992px) {
+  .form-for-mobile {
+    display: none;
+  }
+
+  .form-for-large {
+    display: inline;
+  }
+
+  .lg {
+    width: 10vw !important;
+  }
+}
+
+.to-result a:hover {
+  color: darkblue;
+  text-decoration: none;
+}
+
+/* result display area */
+
+.text-background {
+  background-color: #d85e4b;
+  border: 15px solid white;
+}
+
+/* this the result page */
+
+.result-elts {
+  border-radius: 7px;
+}
+
+.result-container {
+  box-shadow: 2px 2px rgba(000, 000, 000, 0.2);
+}
+
+.anchor-text {
+  background-color: #ebebeb;
+  margin: auto 3em;
+  padding: 0.5rem;
+  margin-top: 2em;
+}
+
+.anchor-text a:hover {
+  text-decoration: none;
+}
+
+/* adding a map */
+
+#googleMap {
+  height: 400px;
+  width: 100%;
+}
+
+/* footer-section  */
+footer .ft-upper-nav {
+  width: 100vw !important;
+  border-top: 0.1px solid #837979;
+  border-bottom: 0.1px solid #837979;
+  background-color: black;
+}
+
+footer .ft-upper-nav .nav-link {
+  width: 5vw;
+}
+
+/* position the middle location icon  */
+
+.upper-container,
+.middle-footer {
+  position: relative;
+  background-color: black;
+}
+
+.location-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 4em;
+  border: 0.1px solid #837979;
+  text-align: center;
+  height: 50%;
+  background-color: black;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 576px) {
+  .ft-upper-nav .nav-link {
+    font-size: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ft-upper-nav .nav-link {
+    font-size: 0.7rem;
+  }
+}
+
+.form-control {
+  background-color: #495057;
+  border: 0.5px solid #837979;
+}
+
+.lower-footer {
+  background-color: #495057;
+}
+
+.lower-footer ul .nav-link {
+  font-size: 1.3rem;
+  padding: 0 5px;
+}
