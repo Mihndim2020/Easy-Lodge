@@ -42,7 +42,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse
+- Microverse Community
 - Stand Up team
 - Mentor
 - W3Schools
