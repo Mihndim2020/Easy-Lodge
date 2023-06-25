@@ -45,7 +45,8 @@ Give a ⭐️ if you like this project!
 - Microverse Community
 - Stand Up team
 - Mentor
-
+- W3Schools
+- Mathew Njuguna and others on Behance
 
 ## 📝 License
 
